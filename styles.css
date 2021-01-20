@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+/* Here you canchange the background color of your website. */
 body{
     background-color: rgb(100, 99, 99);
 }
@@ -11,7 +12,7 @@ body{
 .sidebar{
     position: fixed;
     left: 0;
-    width: 220px;
+    width: 200px;
     height: 100%;
     background-color: rgb(15, 15, 15);
 }
@@ -31,16 +32,15 @@ body{
     width: 100%;
     line-height: 50px;
     font-size: 20px;
-    color: white;
+    color: white; 
     padding-left: 20px;
     text-decoration: none;
     transition: 0.6s ease;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
 }
 
-
+/* This is here to add the hover effect to the li tags. */
 .sidebar li:hover a{
     padding-left: 50px;
+    text-decoration : underline solid white;
 
 }
